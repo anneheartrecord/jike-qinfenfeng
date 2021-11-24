@@ -1,0 +1,9 @@
+sql.Open("mysql","root:cxs20030416@tcp(127.0.0.1:3306)/work6")
+
+sqlStr:="insert into artical(name) values (?)"
+
+sqlStr:="select id from artical where name=?"
+
+sqlStr:="update artical set name=? where id=?"
+
+sqlStr:="delete from artical where name=?"
